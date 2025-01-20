@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Vinicius Biancolini - Desenvolvedor Web em formação">
+  <title>Vinicius Biancolini - Desenvolvedor Web</title>
+  <style>
+    /* Reset básico */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: 'Arial', sans-serif;
+      background: linear-gradient(to right, #6a11cb, #2575fc); /* Gradiente de fundo */
+      color: #fff;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      width: 90%;
+      max-width: 1200px;
+      margin: 0 auto;
+    }
+
+    header {
+      text-align: center;
+      padding: 50px 0;
+      background-color: rgba(0, 0, 0, 0.6);
+      border-bottom: 5px solid #2575fc;
+      border-radius: 10px;
+      margin-top: 20px;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      margin-bottom: 10px;
+      animation: fadeIn 2s ease-in-out;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      animation: fadeIn 3s ease-in-out;
+    }
+
+    section {
+      padding: 60px 0;
+      text-align: center;
+    }
+
+    section h2 {
+      font-size: 2.5rem;
+      color: #2575fc;
+      margin-bottom: 20px;
+      font-weight: bold;
+      animation: slideIn 1s ease-out;
+    }
+
+    section p {
+      font-size: 1.2rem;
+      color: #f1f1f1;
+      max-width: 800px;
+      margin: 0 auto;
+      line-height: 1.8;
+    }
+
+    .skills ul {
+      list-style: none;
+      padding: 0;
+      text-align: left;
+      max-width: 700px;
+      margin: 0 auto;
+      font-size: 1.1rem;
+    }
+
+    .skills li {
+      margin-bottom: 15px;
+      transition: transform 0.3s ease, color 0.3s ease;
+    }
+
+    .skills li:hover {
+      transform: translateX(10px);
+      color: #2575fc;
+    }
+
+    .footer {
+      text-align: center;
+      padding: 30px 0;
+      background-color: rgba(0, 0, 0, 0.8);
+      color: #fff;
+      border-top: 5px solid #2575fc;
+    }
+
+    .footer a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1.1rem;
+      transition: color 0.3s ease;
+    }
+
+    .footer a:hover {
+      color: #2575fc;
+    }
+
+    /* Animações */
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+
+    @keyframes slideIn {
+      from {
+        transform: translateY(-50px);
+        opacity: 0;
+      }
+      to {
+        transform: translateY(0);
+        opacity: 1;
+      }
+    }
+
+    /* Responsividade */
+    @media (max-width: 768px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      header p {
+        font-size: 1rem;
+      }
+
+      section h2 {
+        font-size: 2rem;
+      }
+
+      .skills ul {
+        font-size: 1rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <div class="container">
+      <h1>Olá, eu sou Vinicius Biancolini</h1>
+      <p>Desenvolvedor Back-end e Front-end | Técnico em Desenvolvimento de Sistemas</p>
+    </div>
+  </header>
+
+  <section class="about">
+    <div class="container">
+      <h2>Sobre Mim</h2>
+      <p>Meu nome é **Vinicius Biancolini**, tenho **17 anos**, e sou de **São Carlos, SP**. Sou um entusiasta de programação e atualmente estou me especializando como **Desenvolvedor Web**. Tenho uma grande paixão por aprender e criar soluções tecnológicas que podem impactar positivamente o dia a dia das pessoas.</p>
+    </div>
+  </section>
+
+  <section class="skills">
+    <div class="container">
+      <h2>Minhas Habilidades</h2>
+      <ul>
+        <li><strong>Front-end:</strong> HTML, CSS, JavaScript, React</li>
+        <li><strong>Back-end:</strong> Node.js, PHP</li>
+        <li><strong>Bancos de Dados:</strong> MySQL, PostgreSQL</li>
+        <li><strong>Controle de Versão:</strong> Git, GitHub</li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="goals">
+    <div class="container">
+      <h2>Objetivos</h2>
+      <p>Estou focado em me tornar um profissional completo, dominando tanto o desenvolvimento **front-end** quanto **back-end**. Meu objetivo é aprimorar meus conhecimentos em novas tecnologias, além de colaborar em projetos desafiadores e crescer continuamente na área de tecnologia.</p>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container">
+      <p>Entre em contato:</p>
+      <a href="mailto:seuemail@dominio.com">E-mail</a>
+      <a href="https://www.linkedin.com/in/vinicius-biancolini" target="_blank">LinkedIn</a>
+      <a href="https://github.com/viniciusbiancolini" target="_blank">GitHub</a>
+      <p>&copy; 2025 Vinicius Biancolini</p>
+    </div>
+  </footer>
+
+</body>
+</html>
