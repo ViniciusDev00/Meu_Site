@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma Back-End SENAI</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: linear-gradient(45deg, #FF5733, #FFC300, #28A745, #1E90FF, #8A2BE2);
+            background-size: 400% 400%;
+            animation: gradientAnimation 10s ease infinite;
+            color: #fff;
+            text-align: center;
+        }
+
+        @keyframes gradientAnimation {
+            0% { background-position: 0% 50%; }
+            50% { background-position: 100% 50%; }
+            100% { background-position: 0% 50%; }
+        }
+
+        header {
+            padding: 20px;
+            background-color: rgba(0, 0, 0, 0.6);
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin: 0;
+            text-shadow: 3px 3px 10px rgba(0, 0, 0, 0.8);
+        }
+
+        .container {
+            padding: 30px;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.2);
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.5);
+            max-width: 400px;
+        }
+
+        .card h2 {
+            font-size: 2rem;
+            margin: 10px 0;
+        }
+
+        .card p {
+            font-size: 1.2rem;
+            line-height: 1.6;
+        }
+
+        footer {
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.6);
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+
+        footer p {
+            margin: 0;
+            font-size: 1rem;
+            color: #FFD700;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            margin: 20px 0;
+            border: none;
+            border-radius: 25px;
+            background: #FFD700;
+            color: #000;
+            font-size: 1.2rem;
+            font-weight: bold;
+            cursor: pointer;
+            text-decoration: none;
+            transition: transform 0.3s, background 0.3s;
+        }
+
+        .btn:hover {
+            transform: scale(1.1);
+            background: #FF5733;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Turma de Back-End SENAI</h1>
+    </header>
+    <div class="container">
+        <div class="card">
+            <h2>Bem-vindos!</h2>
+            <p>Preparem-se para uma jornada incrível no mundo do desenvolvimento back-end! Aqui, vamos aprender, criar e nos divertir juntos!</p>
+            <a href="#" class="btn">Começar Agora</a>
+        </div>
+        <div class="card">
+            <h2>Nossos Objetivos</h2>
+            <p>Explorar linguagens, frameworks e bancos de dados, desenvolvendo habilidades que fazem a diferença na indústria.</p>
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 - SENAI Juiz de Fora | Turma de Back-End</p>
+    </footer>
+</body>
+</html>
